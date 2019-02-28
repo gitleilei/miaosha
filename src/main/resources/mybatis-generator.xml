@@ -25,7 +25,7 @@
 
         <!-- 数据库连接地址及账号密码-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://127.0.0.1:3306/miaosha"
-                        userId="root" password="sllwork">
+                        userId="root" password="root">
             <!-- 这里面可以设置property属性，每一个property属性都设置到配置的Driver上 -->
         </jdbcConnection>
         <!-- java模型创建器，是必须要的元素
@@ -45,12 +45,12 @@
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
         <!--生成对应表及类名-->
-        <table tableName="user_info" domainObjectName="UserInfo" enableCountByExample="flase"
+        <table tableName="test" domainObjectName="Test" enableCountByExample="flase"
                enableUpdateByExample="flase" enableDeleteByExample="flase"
                enableSelectByExample="flase" selectByExampleQueryId="flase"></table>
-        <table tableName="user_password" domainObjectName="UserPassword" enableCountByExample="flase"
-               enableUpdateByExample="flase" enableDeleteByExample="flase"
-               enableSelectByExample="flase" selectByExampleQueryId="flase"></table>
+        <!--<table tableName="user_password" domainObjectName="UserPassword" enableCountByExample="flase"-->
+               <!--enableUpdateByExample="flase" enableDeleteByExample="flase"-->
+               <!--enableSelectByExample="flase" selectByExampleQueryId="flase"></table>-->
     
     </context>
 
