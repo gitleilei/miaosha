@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Hello world!     (git上的目录为https://github.com/gitleilei/miaosha.git)
+ * Hello world!     (git上的目录为https://github.com/gitleilei/miaosha.git)学习springboot之余顺带学习git
  * SpringBootApplication注解和EnableAutoConfiguration注解异曲同工，
  * 可以把App这个类被spring托管并且置顶App这个类是主启动类，
  * MapperScan注解标记dao（mapper接口）存放的目录
