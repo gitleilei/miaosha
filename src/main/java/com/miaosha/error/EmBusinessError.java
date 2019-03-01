@@ -2,7 +2,7 @@ package com.miaosha.error;
 
 public enum EmBusinessError implements CommonError {
 
-    //通用错误类型1000开头
+    //1000开头为通用错误类型定义
     PARAMETER_VALIDATINO_ERROR(10001, "参数不合法"),
     //未知错误
     UNKNOWN_ERROR(10002, "未知错误"),
